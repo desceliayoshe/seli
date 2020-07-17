@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Login{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.login-box{
+    width: 380px;
+    height: 480px;
+    background: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+ 
+}
+.userlogo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:black;
+    font-size: 20px;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: black;
+    color: white;
+    font-size: 22px;
+    border-radius: 20px;
+} 
+
+.login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: grey;
+    color: #000;
+} 
+
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: gray;
+}
+
+.mainmenu{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: 0 10px;
+}
+.wrapper_inner{
+    position: relative;
+    max-width: 1250px;
+    width: 100%;
+    height: 700px;
+    background: turquoise;
+    margin: 30px auto;
+    border-radius: 25px;
+    display: flex;
+}
+.vertical_wrap{
+    position: relative;
+    height: 100%;
+}
+.vertical_bar{
+    width: 250px;
+    background: white;
+}
